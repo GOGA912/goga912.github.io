@@ -185,6 +185,13 @@
 	    document.getElementById("navMenu").classList.toggle("show");
 	  }
 	</script>
+	<script>
+		document.querySelectorAll('#navMenu a').forEach(link => {
+	    link.addEventListener('click', () => {
+	      document.getElementById("navMenu").classList.remove("show");
+	    });
+	  });
+	</script>
 	<!-- Menú móvil (fuera de .navbar y DENTRO del body) -->
 	<div id="navMenu" class="nav-mobile">
 	  <a href="#academica">Formación Académica</a>
