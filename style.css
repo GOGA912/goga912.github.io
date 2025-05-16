@@ -102,7 +102,7 @@ html, body {
   }
 
   .menu-icon {
-      display: none;
+      display: block;
       font-size: 28px;
       color: white;
       cursor: pointer;
